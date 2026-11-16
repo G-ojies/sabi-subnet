@@ -46,7 +46,12 @@ python -m sabi.miner --wallet W --hotkey miner1 --netuid 2 --network ws://127.0.
     --port 8091 --external-ip <LAN IP> --mode honest
 python -m sabi.validator --wallet W --hotkey owner --netuid 2 --network ws://127.0.0.1:9944
 python -m sabi.rescore logs/validator-*.jsonl
+
+# or everything at once (4 miners + validator + on-chain payout + re-score):
+scripts/demo.sh <wallet> <netuid>
 ```
+
+Pitch and demo-video script: [docs/PITCH.md](docs/PITCH.md).
 
 Set `GROQ_API_KEY` (or `SABI_LLM_API_KEY` + `SABI_LLM_BASE_URL`) on the validator to use LLM-paraphrased questions.
 
