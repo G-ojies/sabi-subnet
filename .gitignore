@@ -4,3 +4,6 @@ __pycache__/
 .env*
 logs/
 .pytest_cache/
+
+# personal working notes, never commit
+private/
