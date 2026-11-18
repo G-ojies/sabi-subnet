@@ -51,7 +51,6 @@ python -m sabi.rescore logs/validator-*.jsonl
 scripts/demo.sh <wallet> <netuid>
 ```
 
-Pitch and demo-video script: [docs/PITCH.md](docs/PITCH.md).
 
 Set `GROQ_API_KEY` (or `SABI_LLM_API_KEY` + `SABI_LLM_BASE_URL`) on the validator to use LLM-paraphrased questions.
 
